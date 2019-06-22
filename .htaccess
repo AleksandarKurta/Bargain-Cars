@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^assets - [L]
+RewriteRule ^sys - [L]
+RewriteRule ^tests - [L]
+RewriteRule ^uploads - [L]
+RewriteRule ^(.*)$ index.php [L]
